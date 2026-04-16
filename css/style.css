@@ -855,7 +855,7 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: var(--bs-secondary);colo
+    color: var(--bs-secondary);
 }
 
 /*** Footer End ***/
@@ -863,7 +863,7 @@
 
 /*** copyright Start ***/
 .copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: #7a3021 !important;
 }
 /*** copyright end ***/
@@ -903,3 +903,10 @@
 
 
 .allCategorie{ color: #fff; font-size: 18px; font-weight: 500;}
+.navbar-light .navbar-toggler {
+	color: #fff;
+	border-color: #fff;
+}
+.navbar .navbar-toggler {
+	padding: 10px 15px;
+}
