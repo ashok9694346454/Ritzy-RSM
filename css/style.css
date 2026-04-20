@@ -866,47 +866,25 @@
   border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: #7a3021 !important;
 }
-/*** copyright end ***/
 
 
 
-
-/*New CSS----*/
-
-.logoTop{
-    max-width: 110px; border-radius: 50%;
-}
-
+.logoTop{ max-width: 110px; border-radius: 50%;}
 .headerBg{background: #f8d6d2;}
 .bg-primary{background: #7a3021;}
 .bg-primary {background-color: #7a3021 !important;}
-.navbar-light .navbar-nav .nav-link {
-	color: rgba(255, 255, 255, 0.55);
-}
+.navbar-light .navbar-nav .nav-link {	color: rgba(255, 255, 255, 0.55);}
+.bg-light {background-color: #ffefed !important;}
+.ivonsBox {background: #fff; border-radius: 520%;}
 
-.bg-light {
-	background-color: #ffefed !important;
-}
-
-.ivonsBox {
-	background: #fff;
-	border-radius: 520%;
-}
-
-.loginBtn
-{
+.loginBtn {
   -background: #7a3021;
   border-radius: 50rem;
   color: #fff !important;
   padding: 10px 25px;
 }
 
-
 .allCategorie{ color: #fff; font-size: 18px; font-weight: 500;}
-.navbar-light .navbar-toggler {
-	color: #fff;
-	border-color: #fff;
-}
-.navbar .navbar-toggler {
-	padding: 10px 15px;
-}
+.navbar-light .navbar-toggler {	color: #fff;border-color: #fff;}
+.navbar .navbar-toggler {padding: 10px 15px;}
+.bgcolors{ background-color:#ffeae8; padding: 15PX; border-radius: 10px;}
