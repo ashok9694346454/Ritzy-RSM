@@ -109,6 +109,7 @@
     .topbar {
         display: none;    
     }
+        
 }
 
 .nav-bar .categories-bars .categories-bars-item {
@@ -179,6 +180,8 @@
     .nav-bar .navbar .navbar-nav .nav-link {
         padding: 8px 0px;
     }
+
+
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -800,42 +803,26 @@
     background: var(--bs-secondary) !important;
 }
 
-.footer {
-    background: #f8d6d2;
-}
-.footer .footer-item a {
-    line-height: 30px;
-    color: var(--bs-body);
-    transition: 0.5s; color: #333;
-}
-
-.footer .footer-item p {
-    line-height: 30px; color: #333;
-}
-
+.footer {background: #f8d6d2;}
+.footer .footer-item a {line-height: 30px; color: var(--bs-body); transition: 0.5s; color: #333;}
+.footer .footer-item p {line-height: 30px; color: #333;}
 .footer .footer-item a:hover {
     letter-spacing: 2px;
     color: var(--bs-secondary);
 }
 
 
-.copyright {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: #7a3021 !important;
-}
-
-
+.copyright {  border-top: 1px solid rgba(255, 255, 255, 0.08);background: #7a3021 !important;}
 
 .logoTop{ max-width: 110px; border-radius: 50%;}
 .headerBg{background: #f8d6d2;}
 .bg-primary{background: #7a3021;}
 .bg-primary {background-color: #7a3021 !important;}
-.navbar-light .navbar-nav .nav-link {	color: rgba(255, 255, 255, 0.55);}
+.navbar-light .navbar-nav .nav-link {	color: rgba(255, 255, 255, 0.60);}
 .bg-light {background-color: #ffefed !important;}
 .ivonsBox {background: #fff; border-radius: 520%;}
-
-.loginBtn {
-  -background: #7a3021;
+.text-primary{color: #7a3021 !important;}
+.loginBtn {-background: #7a3021;
   border-radius: 50rem;
   color: #fff !important;
   padding: 10px 25px;
@@ -844,4 +831,15 @@ a{color:#7a3021;}
 .allCategorie{ color: #fff; font-size: 18px; font-weight: 500;}
 .navbar-light .navbar-toggler {	color: #fff;border-color: #fff;}
 .navbar .navbar-toggler {padding: 10px 15px;}
-.bgcolors{ background-color:#ffeae8; padding: 15PX; border-radius: 10px;}
+.bgcolors{ background-color:#ffeae8; padding: 50px; border-radius: 20px;}
+.productImg{ width: 50px; height: 50px; border-radius: 6px; margin-right: 15px;}
+.loginBlog{max-width: 500px; width: 100%; margin: auto;}
+.topBg{background-color:#7a3021 !important;}
+.topBg .text-muted {color: #fff !important;}
+.loginLogo{ width: 80px; border-radius: 150px;}
+.accordion-button:not(.collapsed){background-color:#7a3021; color: #fff; font-weight: 700;}
+.accordion-button{color: #7a3021;  font-weight: 700;}
+
+@media (max-width: 768px) {
+.logoTop {max-width: 60px !important;}
+}

@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title> Ritzy RSM </title>
+    <title> Ritzy RSM  </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -24,23 +23,22 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <link href="css/style.css" rel="stylesheet">
-
 </head>
 <body>
 
-
+    <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
+    <!-- Spinner End -->
 
-
-    <div class="container-fluid px-5 d-none border-bottom d-lg-block">
-        <div class="row gx-0 align-items-center">
+    <!-- Topbar Start -->
+    <div class="container-fluid px-5 d-none border-bottom d-lg-block topBg">
+        <div class="row gx-0 align-items-center ">
             <div class="col-lg-8 text-center d-flex align-items-center justify-content-start"></div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">           
@@ -54,7 +52,7 @@
                             <a href="#" class="dropdown-item"> Italiano</a>
                         </div>
                     </div>
-                   <div class="dropdown">
+                  <div class="dropdown">
                         <a href="#" class="dropdown-toggle text-muted ms-2" data-bs-toggle="dropdown"><small><i
                                     class="fa fa-user me-2"></i>Username</small></a>
                         <div class="dropdown-menu rounded">
@@ -68,6 +66,7 @@
             </div>
         </div>
     </div>
+
     <div class="container-fluid px-5 py-4 d-none d-lg-block headerBg">
         <div class="row gx-0 align-items-center text-center">
             <div class="col-md-4 col-lg-3 text-center text-lg-start">
@@ -91,20 +90,18 @@
             <div class="col-md-4 col-lg-3 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center">  
                                       
-                   <a href="wishlist.html" class="d-flex align-items-center justify-content-center me-3 ivonsBox"><span
+                  <a href="wishlist.html" class="d-flex align-items-center justify-content-center me-3 ivonsBox"><span
                             class="rounded-circle btn-md-square "><i class="fas fa-heart"></i></a>
 
                     <a href="cart.html" class="d-flex align-items-center justify-content-center me-3 ivonsBox"><span
                             class="rounded-circle btn-md-square "><i class="fas fa-shopping-cart"></i></span>
                          </a>
-
-                   
-                   
                 </div>
             </div>
         </div>
     </div>
-  
+    <!-- Topbar End -->
+
     <!-- Navbar & Hero Start -->
     <div class="container-fluid nav-bar p-0">
         <div class="row gx-0 bg-primary px-5 align-items-center">
@@ -164,9 +161,9 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav ms-auto py-0">
                             <a href="index.html" class="nav-item nav-link ">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="about.html" class="nav-item nav-link ">About</a>
                             <a href="product.html" class="nav-item nav-link">My Products</a>
-                            <a href="contact.html" class="nav-item nav-link me-2 active">Contact </a>
+                            <a href="contact.html" class="nav-item nav-link me-2">Contact </a>
                           
                         </div>
                         <a href="" class="btn btn-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"><i
@@ -178,95 +175,46 @@
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Single Page Header start -->
-    <div class="container-fluid page-header py-5">
-        <h1 class="text-center text-white display-6 wow fadeInUp" data-wow-delay="0.1s">Contact Us</h1>
-        <ol class="breadcrumb justify-content-center mb-0 wow fadeInUp" data-wow-delay="0.3s">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-            <li class="breadcrumb-item active text-white">Contact</li>
-        </ol>
-    </div>
-    <!-- Single Page Header End -->
-
-    <!-- Contucts Start -->
+   
+    
     <div class="container-fluid contact py-5">
-        <div class="container py-5">
+      <div class="container">
+        <div class="loginBlog">
             <div class="p-5 bg-light rounded">
-                <div class="row g-4">
-                    <div class="col-12">
-                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                            <h4 class="text-primary border-bottom border-primary border-2 d-inline-block pb-2">Get in
-                                touch</h4>
-                            <p class="mb-5 fs-5 text-dark">Have a question or need support? Our team is here to assist you.
-                            </p>
+                <div class="row">
+                    <div class="col-md-12">
+                         <div class="row">
+                            <div class="col-lg-12">
+                                    <div class="form-floating mb-4 text-center">
+                                        <img src="img/logo.jpeg" alt="Logo" class="loginLogo mb-3">
+                                     <h5>Login Here</h5>
+                                    </div>
+                                </div>
+
+                               <div class="col-lg-12">
+                                    <div class="form-floating mb-4">
+                                        <input type="text" class="form-control" id="" placeholder="Email ID">
+                                        <label for="name">Email ID</label>
+                                    </div>
+                                </div>
+
+                                 <div class="col-lg-12 ">
+                                    <div class="form-floating mb-4">
+                                        <input type="text" class="form-control" id="" placeholder="Password">
+                                        <label for="name">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3">Login</button>
+                                </div>
+
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <h5 class="text-primary wow fadeInUp" data-wow-delay="0.1s">Let’s Connect</h5>
-                        <h1 class="display-5 mb-4 wow fadeInUp" data-wow-delay="0.3s">Send Your Message</h1>
-                        <p class="mb-4 wow fadeInUp" data-wow-delay="0.5s">Fill out the form and our experts will contact you within 24 Hrs. </p>
-                        <form>
-                            <div class="row g-4 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                                        <label for="phone">Your Phone</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="project" placeholder="Project">
-                                        <label for="project">Your Project</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                            style="height: 160px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="h-100 rounded">
-                           <iframe class="rounded w-100" 
-                            style="height: 100%;"
-                            src="https://www.google.com/maps?q=J-133+134,+Aravalikunj+Appartments,+2nd+Floor,+Sector-13,+Plot-44,+Rohini,+Delhi-110085&output=embed"
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </div>
-                    </div>
-               
+                   </div>               
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
-    <!-- Contuct End -->
 
 
   <!-- Footer Start -->
@@ -374,12 +322,10 @@
             </div>
         </div>
     </div>
-  <!--   Copyright End -->
+  <!--Copyright End -->
 
-
-    <!-- Back to Top -->
+  
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -390,6 +336,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
 
+</body>
 </html>

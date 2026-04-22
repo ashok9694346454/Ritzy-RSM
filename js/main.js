@@ -9,8 +9,7 @@
             }
         }, 1);
     };
-    spinner(0);
-    
+    spinner(0);    
     
     // Initiate the wowjs
     new WOW().init();
@@ -24,7 +23,6 @@
             $('.nav-bar').removeClass('sticky-top shadow-sm');
         }
     });
-
 
     // Hero Header carousel
     $(".header-carousel").owlCarousel({
@@ -138,8 +136,6 @@
             }
         }
     });
-
-
 
     // Product Quantity
     $('.quantity button').on('click', function () {
